@@ -1,0 +1,44 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environment
+venv/
+env/
+*.venv/
+.venv/
+env.bak/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+build/
+Develop-eggs/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+*.spec
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.swp
+*~
+*.bak
+*.tmp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
