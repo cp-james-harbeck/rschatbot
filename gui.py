@@ -260,7 +260,7 @@ model_label = ttk.Label(frame1, text='Model:', font=font, style='Dark.TLabel')
 model_label.grid(row=0, column=0, padx=10, pady=5, sticky='w')
 
 # Create a dropdown menu for model selection
-model_entry = ttk.Combobox(frame1, values=['GPT-2', 'GPT-3.5-turbo', 'GPT-4'], font=font, state='readonly')
+model_entry = ttk.Combobox(frame1, values=['gpt-2', 'gpt-3.5-turbo', 'gpt-4'], font=font, state='readonly')
 model_entry.set(bot_config['Settings']['model'])
 model_entry.grid(row=0, column=1, padx=10, pady=5, sticky='w')
 Tooltip(model_entry, 'Select the AI model to use')
