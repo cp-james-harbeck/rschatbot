@@ -14,7 +14,7 @@ import datetime
 from collections import deque
 
 # Set up OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = '<your-openai-api-key>'
 
 # Set up Tesseract OCR path (replace with your Tesseract installation path)
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
